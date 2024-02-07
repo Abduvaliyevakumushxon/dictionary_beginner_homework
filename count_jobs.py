@@ -24,5 +24,5 @@ data=[
   }
   ]
 job='Developer'
-a=count_jobs(data,job)
+a=count_jobs(data , job)
 print(a)
