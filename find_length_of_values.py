@@ -18,7 +18,7 @@ def find_length_of_values(data: dict) -> int:
     r=data.get(d)
     g=data.get(h)
     return len(q+r+g)
-print(find_length_of_values(data = {
+print(find_length_of_values(data  = {
     'a': 'abc',
     'b': 'def', 
     'c': 'ghi'
